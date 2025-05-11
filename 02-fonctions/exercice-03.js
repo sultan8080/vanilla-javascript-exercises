@@ -4,8 +4,8 @@
 
 // Fonction fléchée - arrow funciton;
 
-const addition2 = (x, y) => {
+const addition = (x, y) => {
   return x + y;
 };
 
-console.log(addition2(50, 20));
+console.log(addition(50, 20));
