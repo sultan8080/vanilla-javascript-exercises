@@ -8,10 +8,3 @@ function addition(x, y) {
 
 console.log(addition(10, 20));
 
-//arrow funciton;
-
-const addition2 = (x, y) => {
-  return x + y;
-};
-
-console.log(addition2(50, 20));
