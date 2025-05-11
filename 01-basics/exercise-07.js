@@ -4,6 +4,9 @@ let personne = {
   pays: "France"
 };
 
+console.log(personne.nom + " a " + personne.age + " ans et habite à " + personne.pays);
+
+
 // Boucle for...in
 
 for (const key in personne) {
