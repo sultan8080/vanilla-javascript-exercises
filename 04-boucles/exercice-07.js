@@ -20,4 +20,4 @@ for (let personne of personnes) { // Iterates over each object in the array
     
     console.log("\n"); // Adds a line break for readability
 }
-*/
+    */
