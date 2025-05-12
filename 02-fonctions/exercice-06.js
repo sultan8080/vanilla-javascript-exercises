@@ -4,6 +4,7 @@
 Rest parameters allow a function to accept an indefinite number of arguments and group them into an array using the ... (spread) syntax.
 */
 
+
 //Crée une fonction somme qui accepte un nombre quelconque d’arguments et retourne leur somme.
 
 function somme(...nombres) {
