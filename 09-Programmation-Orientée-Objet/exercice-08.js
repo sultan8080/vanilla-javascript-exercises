@@ -7,7 +7,7 @@ function CompteBancaire(soldeInitial) {
 // La closure commence ici : les fonctions internes conservent l'accès à `solde`
 // Retourne un objet contenant trois méthodes pour gérer le compte bancaire
   return {
-    // Méthode `deposer`, `retirer`, `afficherSold` avec Fonction fléchée
+    // Méthode/propriétés `deposer`, `retirer`, `afficherSold` avec Fonction fléchée
     deposer: (montant) => solde += montant,
     retirer: (montant) => solde -= montant,
     afficherSolde: () => console.log(`Solde : ${solde} €`)
